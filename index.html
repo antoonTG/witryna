@@ -50,11 +50,115 @@
         <section id="hero-section">
             </section>
 
-        <section id="categories-section">
-            </section>
+        <section id="categories-section" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Kategorie Portalu</h2>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 text-center p-4 border-0 shadow-sm">
+                            <div class="card-body">
+                                <i class="bi bi-code-slash text-primary fs-1 mb-3"></i>
+                                <h5 class="card-title">Programowanie</h5>
+                                <p class="card-text text-muted">Artykuły, poradniki i nowości ze świata języków programowania.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 text-center p-4 border-0 shadow-sm">
+                            <div class="card-body">
+                                <i class="bi bi-cloud-arrow-up text-primary fs-1 mb-3"></i>
+                                <h5 class="card-title">Cloud Computing</h5>
+                                <p class="card-text text-muted">Wszystko o AWS, Azure, Google Cloud i architekturze chmurowej.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 text-center p-4 border-0 shadow-sm">
+                            <div class="card-body">
+                                <i class="bi bi-shield-lock text-primary fs-1 mb-3"></i>
+                                <h5 class="card-title">Cyberbezpieczeństwo</h5>
+                                <p class="card-text text-muted">Jak dbać o bezpieczeństwo sieci, aplikacji i danych osobowych.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 text-center p-4 border-0 shadow-sm">
+                            <div class="card-body">
+                                <i class="bi bi-database text-primary fs-1 mb-3"></i>
+                                <h5 class="card-title">Bazy Danych</h5>
+                                <p class="card-text text-muted">Projektowanie, optymalizacja i zarządzanie SQL oraz NoSQL.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 text-center p-4 border-0 shadow-sm">
+                            <div class="card-body">
+                                <i class="bi bi-robot text-primary fs-1 mb-3"></i>
+                                <h5 class="card-title">Sztuczna Inteligencja</h5>
+                                <p class="card-text text-muted">Machine Learning, sieci neuronowe i przyszłość technologii AI.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 text-center p-4 border-0 shadow-sm">
+                            <div class="card-body">
+                                <i class="bi bi-phone text-primary fs-1 mb-3"></i>
+                                <h5 class="card-title">Mobile Dev</h5>
+                                <p class="card-text text-muted">Tworzenie responsywnych i wydajnych aplikacji na Androida oraz iOS.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <section id="about-section">
-            </section>
+        <section id="about-section" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Twórcy Portalu</h2>
+                
+                <div id="creatorsCarousel" class="carousel slide shadow p-4 bg-white rounded" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        
+                        <div class="carousel-item active">
+                            <div class="row align-items-center g-4">
+                                <div class="col-12 col-lg-5 text-center">
+                                    <img src="img/autor1.jpg" class="img-fluid rounded-circle" alt="Jan Kowalski" style="max-height: 250px; object-fit: cover;">
+                                </div>
+                                <div class="col-12 col-lg-7 text-center text-lg-start">
+                                    <h3>Jan Kowalski</h3>
+                                    <p class="badge bg-primary">Główny Programista</p>
+                                    <p class="text-muted lead">Jan odpowiada za architekturę kodu oraz wdrożenie frameworka Bootstrap 5. Pasjonuje się nowoczesnymi technologiami webowymi i optymalizacją wydajności stron.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row align-items-center g-4">
+                                <div class="col-12 col-lg-5 text-center">
+                                    <img src="img/autor2.jpg" class="img-fluid rounded-circle" alt="Anna Nowak" style="max-height: 250px; object-fit: cover;">
+                                </div>
+                                <div class="col-12 col-lg-7 text-center text-lg-start">
+                                    <h3>Anna Nowak</h3>
+                                    <p class="badge bg-primary">UI/UX Designer & Redaktor</p>
+                                    <p class="text-muted lead">Anna zadbała o spójną paletę kolorów, typografię Roboto oraz dobór licencjonowanych grafik CC0. Na co dzień tworzy angażujące treści o cyberbezpieczeństwie.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#creatorsCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="visually-hidden">Poprzedni</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#creatorsCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="visually-hidden">Następny</span>
+                    </button>
+                </div>
+
+            </div>
+        </section>
 
         <section id="contact-section">
             </section>

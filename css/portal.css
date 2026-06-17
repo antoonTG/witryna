@@ -63,3 +63,19 @@ h1, h2, h3, h4, h5, h6 {
 #app {
     padding-top: 56px;
 }
+
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+#creatorsCarousel {
+    min-height: 300px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
