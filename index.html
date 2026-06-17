@@ -160,11 +160,72 @@
             </div>
         </section>
 
-        <section id="contact-section">
-            </section>
+        <section id="contact-section" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Kontakt i opinie</h2>
+                
+                <div class="row g-5">
+                    <div class="col-12 col-lg-5">
+                        <div class="p-4 bg-white rounded shadow-sm h-100">
+                            <h4 class="mb-4 text-primary">Dane Portalu</h4>
+                            <p class="mb-3">
+                                <i class="bi bi-geo-alt-fill text-warning me-2"></i> 
+                                <strong>Adres:</strong> Al. Jerozolimskie 100, 00-001 Warszawa
+                            </p>
+                            <p class="mb-3">
+                                <i class="bi bi-telephone-fill text-warning me-2"></i> 
+                                <strong>Telefon:</strong> +48 22 123 45 67
+                            </p>
+                            <p class="mb-3">
+                                <i class="bi bi-envelope-fill text-warning me-2"></i> 
+                                <strong>E-mail:</strong> redakcja@infoinfo.pl
+                            </p>
+                            <hr class="my-4">
+                            <h5 class="mb-3">Godziny pracy redakcji</h5>
+                            <ul class="list-unstyled text-muted">
+                                <li>Poniedziałek - Piątek: 8:00 - 18:00</li>
+                                <li>Sobota: 9:00 - 14:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-lg-7">
+                        <div class="p-4 bg-white rounded shadow-sm">
+                            <h4 class="mb-4 text-primary">Zostaw swoją opinię</h4>
+                            <form id="contactForm" novalidate>
+                                <div class="mb-3">
+                                    <label for="inputEmail" class="form-label">Adres e-mail</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com" required>
+                                    <div class="invalid-feedback">Proszę podać poprawny adres e-mail.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="inputSubject" class="form-label">Temat wiadomości</label>
+                                    <input type="text" class="form-control" id="inputSubject" placeholder="np. Uwagi do artykułu, błąd na stronie" required>
+                                    <div class="invalid-feedback">Proszę wpisać temat wiadomości.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="inputMessage" class="form-label">Treść uwag / Komentarz</label>
+                                    <textarea class="form-control" id="inputMessage" rows="4" placeholder="Wpisz tutaj swoje uwagi lub komentarz..." required></textarea>
+                                    <div class="invalid-feedback">Treść wiadomości nie może być pusta.</div>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Wyślij zgłoszenie</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <footer id="footer-section">
-            </footer>
+        <footer id="footer-section" class="bg-custom-dark text-white py-4 mt-5">
+            <div class="container text-center">
+                <div class="d-flex justify-content-center align-items-center mb-3">
+                    <i class="bi bi-cpu-fill me-2 text-warning fs-4"></i>
+                    <span class="fw-bold fs-4">Info<span class="text-warning">Info</span></span>
+                </div>
+                <p class="mb-2 text-white-50">&copy; 2026 InfoInfo Portal Informatyczny. Wszelkie prawa zastrzeżone.</p>
+                <small class="text-white-50">Projekt zespołowy - Programowanie Zespołowe</small>
+            </div>
+        </footer>
 
     </div>
 
