@@ -11,7 +11,7 @@
     
     <link rel="stylesheet" href="css/portal.css">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="80" tabindex="0">
 
     <div id="app">
 
@@ -40,6 +40,12 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact-section">Kontakt</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#map-section">Mapa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer-section">Stopka</a>
                             </li>
                         </ul>
                     </div>
@@ -162,6 +168,21 @@
 
         <section id="contact-section">
             </section>
+
+        <section id="map-section" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Mapa dojazdu</h2>
+                <p class="text-center text-muted mb-4">Lokalizacja Szkoly Wyzszej im. Pawla Wlodkowica w Plocku.</p>
+                <div class="map-wrapper shadow-sm rounded overflow-hidden">
+                    <iframe
+                        title="Mapa dojazdu do Szkoly Wyzszej im. Pawla Wlodkowica w Plocku"
+                        src="https://www.google.com/maps?q=Szko%C5%82a%20Wy%C5%BCsza%20im.%20Paw%C5%82a%20W%C5%82odkowica%20w%20P%C5%82ocku&output=embed"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
 
         <footer id="footer-section">
             <div class="container text-center">
