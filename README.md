@@ -3,11 +3,11 @@
 
 **Grupa**
 
--Piotr Skrzeczkowski
--Igor Ślęzak
--Michał Smółka
--Michał Skroński
--Damian Zawitowski
+- Piotr Skrzeczkowski
+- Igor Ślęzak
+- Michał Smółka
+- Michał Skroński
+- Damian Zawitowski
 
 ## Zasady pracy w repozytorium
 
