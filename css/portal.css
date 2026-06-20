@@ -79,3 +79,13 @@ h1, h2, h3, h4, h5, h6 {
 .carousel-control-prev, .carousel-control-next {
     width: 5%;
 }
+
+#footer-section {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 32px 20px;
+}
+
+#footer-section .text-warning {
+    color: var(--accent-orange) !important;
+}
