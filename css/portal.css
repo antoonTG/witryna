@@ -79,6 +79,37 @@ h1, h2, h3, h4, h5, h6 {
 .carousel-control-prev, .carousel-control-next {
     width: 5%;
 }
+#hero-section.hero-section {
+    min-height: 520px;
+    display: flex;
+    align-items: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, var(--dark-blue), var(--primary-color));
+    overflow: hidden;
+}
+
+#hero-section h1,
+#hero-section h2 {
+    color: var(--white);
+}
+
+.hero-eyebrow {
+    color: #ffd35c;
+    letter-spacing: 0.08em;
+}
+
+.hero-panel {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.2);
+}
+
+.hero-stat {
+    display: block;
+    color: #ffd35c;
+    font-size: 1.5rem;
+    font-weight: 700;
 
 #footer-section {
     background-color: var(--dark-blue);
