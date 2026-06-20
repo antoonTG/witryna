@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Zasady pracy w repozytorium
+    url: https://github.com/antoonTG/witryna#zasady-pracy-w-repozytorium
+    about: Przed dodaniem zadania sprawdz zasady branchy, commitow i Pull Requestow.
