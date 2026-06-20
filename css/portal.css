@@ -79,3 +79,12 @@ h1, h2, h3, h4, h5, h6 {
 .carousel-control-prev, .carousel-control-next {
     width: 5%;
 }
+
+.contact-card {
+    border-top: 4px solid var(--accent-orange);
+}
+
+#contact-section .form-control:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 0.25rem rgba(34, 65, 247, 0.15);
+}
