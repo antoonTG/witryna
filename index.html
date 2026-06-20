@@ -3,49 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Witryna - Portal Informatyczny</title>
-    
+    <title>InfoInfo - Informatyka</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    
     <link rel="stylesheet" href="css/portal.css">
 </head>
-<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="80" tabindex="0">
-
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="72" tabindex="0">
     <div id="app">
+        <header id="header-section" class="site-header">
+            <nav class="navbar navbar-expand-lg" aria-label="Główna nawigacja">
+                <div class="container-fluid px-3 px-lg-4">
+                    <a class="navbar-brand" href="#hero-section">InfoInfo</a>
 
-        <header id="header-section">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-custom-dark fixed-top shadow">
-                <div class="container">
-                    <a class="navbar-brand d-flex align-items-center" href="#header-section">
-                        <i class="bi bi-cpu-fill me-2 text-warning"></i>
-                        <span class="fw-bold tracking-wide">Witryna<span class="text-warning">Info</span></span>
-                    </a>
-                    
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Przełącz nawigację">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    
+
                     <div class="collapse navbar-collapse" id="mainNavbar">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#header-section">Strona Główna</a>
+                                <a class="nav-link" href="#hero-section">O nas</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#categories-section">Kategorie</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#about-section">O nas</a>
+                                <a class="nav-link" href="#about-section">Autorzy</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact-section">Kontakt</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#map-section">Mapa</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#footer-section">Stopka</a>
                             </li>
                         </ul>
                     </div>
@@ -53,183 +40,195 @@
             </nav>
         </header>
 
-        <section id="hero-section" class="hero-section text-white">
-            <div class="container">
-                <div class="row align-items-center g-4">
-                    <div class="col-12 col-lg-7">
-                        <p class="text-uppercase fw-bold mb-3 hero-eyebrow">Portal wiedzy informatycznej</p>
-                        <h1 class="display-4 fw-bold mb-4">InfoInfo - praktyczne materialy z IT w jednym miejscu</h1>
-                        <p class="lead mb-4">Czytaj poradniki, aktualnosci i omowienia technologii przygotowane dla osob uczacych sie programowania, sieci, baz danych i cyberbezpieczenstwa.</p>
-                        <a class="btn btn-warning btn-lg fw-semibold" href="#categories-section">Zobacz kategorie</a>
-                    </div>
-                    <div class="col-12 col-lg-5">
-                        <div class="hero-panel p-4">
-                            <div class="d-flex align-items-center mb-3">
-                                <i class="bi bi-laptop fs-1 text-warning me-3"></i>
-                                <div>
-                                    <h2 class="h4 text-white mb-1">Nauka przez praktyke</h2>
-                                    <p class="mb-0 text-white-50">Krotkie materialy, sprawdzone zrodla i przyklady.</p>
-                                </div>
-                            </div>
-                            <div class="row g-3 text-center">
-                                <div class="col-4">
-                                    <span class="hero-stat">6</span>
-                                    <small>Kategorii</small>
-                                </div>
-                                <div class="col-4">
-                                    <span class="hero-stat">2</span>
-                                    <small>Autorow</small>
-                                </div>
-                                <div class="col-4">
-                                    <span class="hero-stat">24/7</span>
-                                    <small>Dostep</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <main>
+            <section id="hero-section" class="hero-section">
+                <div class="hero-content container" data-animate>
+                    <h1>Informatyka</h1>
+                    <p class="hero-copy">Rozwiązuj z nami swoje problemy ze sprzętem i oprogramowaniem. Doskonal się w trudnej sztuce programowania. Rozwijaj się i pomagaj innym. Poświęć ½ godziny dziennie na zgłębianie tajników informatyki. Zapraszamy każdego.</p>
+                    <p class="hero-claim">Budujemy społeczność programistów.</p>
                 </div>
-            </div>
-        </section>
-
-        <section id="categories-section" class="py-5 bg-light">
-            <div class="container">
-                <h2 class="text-center mb-5">Kategorie Portalu</h2>
-                <div class="row g-4">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card h-100 text-center p-4 border-0 shadow-sm">
-                            <div class="card-body">
-                                <i class="bi bi-code-slash text-primary fs-1 mb-3"></i>
-                                <h5 class="card-title">Programowanie</h5>
-                                <p class="card-text text-muted">Artykuły, poradniki i nowości ze świata języków programowania.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card h-100 text-center p-4 border-0 shadow-sm">
-                            <div class="card-body">
-                                <i class="bi bi-cloud-arrow-up text-primary fs-1 mb-3"></i>
-                                <h5 class="card-title">Cloud Computing</h5>
-                                <p class="card-text text-muted">Wszystko o AWS, Azure, Google Cloud i architekturze chmurowej.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card h-100 text-center p-4 border-0 shadow-sm">
-                            <div class="card-body">
-                                <i class="bi bi-shield-lock text-primary fs-1 mb-3"></i>
-                                <h5 class="card-title">Cyberbezpieczeństwo</h5>
-                                <p class="card-text text-muted">Jak dbać o bezpieczeństwo sieci, aplikacji i danych osobowych.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card h-100 text-center p-4 border-0 shadow-sm">
-                            <div class="card-body">
-                                <i class="bi bi-database text-primary fs-1 mb-3"></i>
-                                <h5 class="card-title">Bazy Danych</h5>
-                                <p class="card-text text-muted">Projektowanie, optymalizacja i zarządzanie SQL oraz NoSQL.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card h-100 text-center p-4 border-0 shadow-sm">
-                            <div class="card-body">
-                                <i class="bi bi-robot text-primary fs-1 mb-3"></i>
-                                <h5 class="card-title">Sztuczna Inteligencja</h5>
-                                <p class="card-text text-muted">Machine Learning, sieci neuronowe i przyszłość technologii AI.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card h-100 text-center p-4 border-0 shadow-sm">
-                            <div class="card-body">
-                                <i class="bi bi-phone text-primary fs-1 mb-3"></i>
-                                <h5 class="card-title">Mobile Dev</h5>
-                                <p class="card-text text-muted">Tworzenie responsywnych i wydajnych aplikacji na Androida oraz iOS.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="about-section" class="py-5">
-            <div class="container">
-                <h2 class="text-center mb-5">Twórcy Portalu</h2>
-                
-                <div id="creatorsCarousel" class="carousel slide shadow p-4 bg-white rounded" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        
-                        <div class="carousel-item active">
-                            <div class="row align-items-center g-4">
-                                <div class="col-12 col-lg-5 text-center">
-                                    <img src="img/autor1.jpg" class="img-fluid rounded-circle" alt="Jan Kowalski" style="max-height: 250px; object-fit: cover;">
-                                </div>
-                                <div class="col-12 col-lg-7 text-center text-lg-start">
-                                    <h3>Jan Kowalski</h3>
-                                    <p class="badge bg-primary">Główny Programista</p>
-                                    <p class="text-muted lead">Jan odpowiada za architekturę kodu oraz wdrożenie frameworka Bootstrap 5. Pasjonuje się nowoczesnymi technologiami webowymi i optymalizacją wydajności stron.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <div class="row align-items-center g-4">
-                                <div class="col-12 col-lg-5 text-center">
-                                    <img src="img/autor2.jpg" class="img-fluid rounded-circle" alt="Anna Nowak" style="max-height: 250px; object-fit: cover;">
-                                </div>
-                                <div class="col-12 col-lg-7 text-center text-lg-start">
-                                    <h3>Anna Nowak</h3>
-                                    <p class="badge bg-primary">UI/UX Designer & Redaktor</p>
-                                    <p class="text-muted lead">Anna zadbała o spójną paletę kolorów, typografię Roboto oraz dobór licencjonowanych grafik CC0. Na co dzień tworzy angażujące treści o cyberbezpieczeństwie.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    
-                    <button class="carousel-control-prev" type="button" data-bs-target="#creatorsCarousel" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
-                        <span class="visually-hidden">Poprzedni</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#creatorsCarousel" data-bs-slide="next">
-                        <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
-                        <span class="visually-hidden">Następny</span>
-                    </button>
-                </div>
-
-            </div>
-        </section>
-
-        <section id="contact-section">
             </section>
 
-        <section id="map-section" class="py-5">
-            <div class="container">
-                <h2 class="text-center mb-4">Mapa dojazdu</h2>
-                <p class="text-center text-muted mb-4">Lokalizacja Szkoly Wyzszej im. Pawla Wlodkowica w Plocku.</p>
-                <div class="map-wrapper shadow-sm rounded overflow-hidden">
-                    <iframe
-                        title="Mapa dojazdu do Szkoly Wyzszej im. Pawla Wlodkowica w Plocku"
-                        src="https://www.google.com/maps?q=Szko%C5%82a%20Wy%C5%BCsza%20im.%20Paw%C5%82a%20W%C5%82odkowica%20w%20P%C5%82ocku&output=embed"
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
-                </div>
-            </div>
-        </section>
+            <section id="categories-section" class="categories-section">
+                <div class="container">
+                    <div class="row g-4 g-lg-5">
+                        <div class="col-12 col-md-6 col-lg-4" data-animate>
+                            <article class="category-item">
+                                <i class="bi bi-chat-left-text" aria-hidden="true"></i>
+                                <h2>Wiadomości</h2>
+                                <p>Najnowsze wiadomości i informacje z dziedziny informatyki. Coś dla programistów i zwykłych użytkowników komputerów, tabletów oraz smartfonów.</p>
+                            </article>
+                        </div>
 
-        <footer id="footer-section">
-            <div class="container text-center">
-                <div class="d-flex justify-content-center align-items-center mb-3">
-                    <i class="bi bi-cpu-fill me-2 text-warning fs-4"></i>
-                    <span class="fw-bold fs-4">Info<span class="text-warning">Info</span></span>
+                        <div class="col-12 col-md-6 col-lg-4" data-animate>
+                            <article class="category-item">
+                                <i class="bi bi-journal-richtext" aria-hidden="true"></i>
+                                <h2>Artykuły</h2>
+                                <p>Artykuły w naszym serwisie pisane są przez wybitnych znawców tematu, którzy z olbrzymią przenikliwością zgłębiają każdy temat.</p>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4" data-animate>
+                            <article class="category-item">
+                                <i class="bi bi-speedometer2" aria-hidden="true"></i>
+                                <h2>Testy</h2>
+                                <p>Nasze laboratorium testuje dla Was najnowszy sprzęt, poddając go elektronicznym torturom i wyciskając siódme poty elektronów.</p>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4" data-animate>
+                            <article class="category-item">
+                                <i class="bi bi-life-preserver" aria-hidden="true"></i>
+                                <h2>Porady</h2>
+                                <p>Jeżeli wciąż masz problemy z obsługą komputerów lub chcesz pracować efektywnie zajrzyj do sekcji z poradami dla adminów i laików.</p>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4" data-animate>
+                            <article class="category-item">
+                                <i class="bi bi-display" aria-hidden="true"></i>
+                                <h2>Tutoriale</h2>
+                                <p>W tutorialach opisujemy krok po kroku w jaki sposób rozwiązać zadania programistyczne praktycznie z każdej dziedziny.</p>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4" data-animate>
+                            <article class="category-item">
+                                <i class="bi bi-controller" aria-hidden="true"></i>
+                                <h2>Recenzje</h2>
+                                <p>Czytamy najciekawsze książki informatyczne i gramy dla Was w najnowsze gry, aby później opisać je dokładnie w tym dziale.</p>
+                            </article>
+                        </div>
+                    </div>
                 </div>
-                <p class="mb-2 text-white-50">&copy; <span id="current-year"></span> InfoInfo Portal Informatyczny. Wszelkie prawa zastrzezone.</p>
-                <small class="text-white-50">Projekt zespolowy - Programowanie Zespolowe</small>
-            </div>
+            </section>
+
+            <section id="about-section" class="authors-section">
+                <div class="container">
+                    <div id="authorsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000" aria-label="Autorzy portalu">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row align-items-center gx-4 gx-lg-5">
+                                    <div class="col-12 col-lg-4 text-center">
+                                        <img src="img/autor2.jpg" class="carousel-author-image" alt="Anna">
+                                    </div>
+                                    <div class="col-12 col-lg-8">
+                                        <div class="author-copy">
+                                            <h2>Anna</h2>
+                                            <p>Doświadczona programistka i projektantka stron internetowych oraz uznana blogierka. Specjalizuje się w HTML5, CSS3, JavaScript, jQuery i Bootstrap. Obecnie pracuje nad nowymi rozwiązaniami dla graczy.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row align-items-center gx-4 gx-lg-5">
+                                    <div class="col-12 col-lg-4 text-center">
+                                        <img src="img/autor1.jpg" class="carousel-author-image" alt="Piotr">
+                                    </div>
+                                    <div class="col-12 col-lg-8">
+                                        <div class="author-copy">
+                                            <h2>Piotr</h2>
+                                            <p>Wszechstronny programista aplikacji sieciowych i internetowych. W portfolio ma kilka ciekawych projektów zrealizowanych dla firm z branży finansowej. Współpracuje z innowacyjnymi startupami.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row align-items-center gx-4 gx-lg-5">
+                                    <div class="col-12 col-lg-4 text-center">
+                                        <img src="img/autorzy.jpg" class="carousel-author-image" alt="Twórcy portalu">
+                                    </div>
+                                    <div class="col-12 col-lg-8">
+                                        <div class="author-copy">
+                                            <h2>Twórcy portalu</h2>
+                                            <p>Z portalem współpracują uznani programiści oraz studenci, którzy chcą rozwijać swoje umiejętności i zdobywać doświadczenie praktyczne. Dołącz do naszego zespołu!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#authorsCarousel" data-bs-slide="prev" aria-label="Poprzedni autor">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#authorsCarousel" data-bs-slide="next" aria-label="Następny autor">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact-section" class="contact-section">
+                <div class="container">
+                    <div class="contact-heading" data-animate>
+                        <h2>Kontakt</h2>
+                        <p>Czekamy na Twoją opinię.</p>
+                    </div>
+
+                    <div class="row g-4 align-items-start">
+                        <div class="col-12 col-lg-4">
+                            <address class="contact-details">
+                                <a class="contact-link" href="https://maps.google.com/?q=P%C5%82ock%2C%20al.%20Kili%C5%84skiego%2012">
+                                    <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
+                                    <span>Płock, al. Kilińskiego 12</span>
+                                </a>
+                                <a class="contact-link" href="tel:+48243664128">
+                                    <i class="bi bi-telephone-fill" aria-hidden="true"></i>
+                                    <span>+48 24 366 41 28</span>
+                                </a>
+                                <a class="contact-link" href="mailto:informatyka@wlodkowic.pl">
+                                    <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+                                    <span>informatyka@wlodkowic.pl</span>
+                                </a>
+                            </address>
+                        </div>
+
+                        <div class="col-12 col-lg-8">
+                            <form class="contact-card needs-validation" novalidate>
+                                <div class="row g-3">
+                                    <div class="col-12 col-md-6">
+                                        <label for="name" class="form-label">Podaj imię</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Imię" required>
+                                        <div class="invalid-feedback">Wpisz imię.</div>
+                                    </div>
+
+                                    <div class="col-12 col-md-6">
+                                        <label for="email" class="form-label">Podaj adres e-mail</label>
+                                        <input type="email" class="form-control" id="email" placeholder="e-mail" required>
+                                        <div class="invalid-feedback">Wpisz poprawny adres e-mail.</div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="message" class="form-label">Wpisz swoje uwagi i komentarze</label>
+                                        <textarea class="form-control" id="message" rows="6" placeholder="Uwagi i komentarze" required></textarea>
+                                        <div class="invalid-feedback">Wpisz treść wiadomości.</div>
+                                    </div>
+
+                                    <div class="col-12 text-end">
+                                        <button class="btn btn-light submit-button" type="submit">Prześlij</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="map-section" class="map-section" aria-label="Mapa dojazdu">
+                <iframe
+                    title="Mapa dojazdu do Szkoły Wyższej im. Pawła Włodkowica w Płocku"
+                    src="https://www.google.com/maps?q=Szko%C5%82a%20Wy%C5%BCsza%20im.%20Paw%C5%82a%20W%C5%82odkowica%20w%20P%C5%82ocku&output=embed"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </section>
+        </main>
+
+        <footer id="footer-section" class="site-footer">
+            <p>SWPW &copy;<span id="current-year">2021</span></p>
         </footer>
-
     </div>
 
     <script src="js/script.js"></script>
